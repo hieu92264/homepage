@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-primary: #5e5cc2;
+  --color-secondary: #4de8e8;
+  --color-btn-hover: #71b8fa;
+  --white-color: #ffffff;
+  --color-footer: #1c2b45;
+  /* mau chu */
+  --foreground: #1c2b45;
+
+  --bground-color: #ffffff;
+  --bground-intro-color: #f3f4f6;
+
+  --header-height: 90px;
+  --main-width: 1440px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5rem; /* chieu cao dong */
+  font-family: "Roboto", sans-serif; /* font chinh, sans-serif la chu~ ko co chan */
+  box-sizing: border-box; /* vi ben tren inherit, nen thang cha can cop box-sizing de thang con ke thua lai*/
+}
+
+/* 1. Reset margin, padding, border cho tất cả phần tử */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Loại bỏ list-style cho ul/ol */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 3. Thiết lập đường dẫn link mặc định */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 4. Xử lý hình ảnh không phá layout */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* @media (max-width: 768px) {
+  .banner__introduce-text {
+    font-size: 32px;
+    line-height: 40px;
+    padding: 0 20px;
+  }
+
+  .banner__start-now--link {
+    font-size: 1.4rem;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner__introduce-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .banner__start-now--link {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+} */

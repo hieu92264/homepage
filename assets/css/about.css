@@ -1,0 +1,77 @@
+.about {
+  margin-top: 90px;
+  background-color: var(--bground-intro-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.decorator-vector-1 {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+}
+
+.decorator-vector-2 {
+  position: absolute;
+  top: 170px;
+  right: 0;
+}
+
+.about__container {
+  width: 100%;
+  max-width: 1440px;
+  height: 900px;
+}
+
+.about__heading {
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: -3%;
+  color: var(--foreground);
+  margin-top: 120px;
+}
+
+.about__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--foreground);
+}
+
+.about__team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg) var(--space-lg);
+}
+
+.about__member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.about__member-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 315px;
+}
+
+.about__member-name {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%;
+  color: var(--foreground);
+  letter-spacing: -3%;
+}
+
+.about__member-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--foreground);
+}

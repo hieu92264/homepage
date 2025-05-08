@@ -1,0 +1,120 @@
+.banner {
+  background-image: url("../img/Img\ block.png");
+  width: 100%;
+  height: 508px;
+  margin-top: var(--header-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__heading {
+  color: var(--white-color);
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: -3%;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.get-started {
+  height: 855px;
+  background-color: var(--bground-intro-colo);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-started__description {
+  width: 100%;
+  max-width: 900px;
+  height: 115px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--foreground-color);
+  margin-top: 40px;
+}
+
+.get-started__form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.get-started__form {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: var(--space-md); */
+  background-color: var(--white-color);
+  width: 100%;
+  height: 515px;
+  max-width: 805px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.get-started__form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 var(--space-lg);
+}
+
+.get-started__form-input {
+  width: 100%;
+  max-width: 365px;
+  height: 48px;
+  border: 1px solid #d1d5db;
+  padding: 9px 13px;
+  border-radius: 6px;
+  font-size: 12px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.get-started__form-footer {
+  /* padding: 10px 20px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.get-started__bground-footer {
+  background-color: #f9fafb;
+}
+
+.get-started__form-submit {
+  width: 100%;
+  max-width: 132px;
+  height: 38px;
+  padding: 9px 17px;
+  background-color: var(--color-text-secondary);
+  color: var(--white-color);
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-right: var(--space-lg);
+  cursor: pointer;
+}
+
+.footer {
+  height: 90px !important;
+}
+
+.footer__info {
+  bottom: 25px !important;
+}
+
+/* .get-started__form-submit:hover {
+  background-color: var(--color-btn-hover);
+} */
